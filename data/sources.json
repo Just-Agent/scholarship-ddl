@@ -1,0 +1,142 @@
+{
+  "topicId": "scholarship-ddl",
+  "generatedAt": "2026-05-15T18:03:01.935Z",
+  "sourcePolicy": "Chinese-first display. Dates are preserved from the hub dataset; crawlers must verify against official pages before strict mode.",
+  "sourceFamilies": [
+    {
+      "id": "csc",
+      "name": "国家留学基金委",
+      "url": "https://www.csc.edu.cn",
+      "adapter": "cscAdapter",
+      "confidence": "official"
+    },
+    {
+      "id": "daad",
+      "name": "DAAD",
+      "url": "https://www.daad.de",
+      "adapter": "daadAdapter",
+      "confidence": "official"
+    },
+    {
+      "id": "fulbright",
+      "name": "Fulbright",
+      "url": "https://foreign.fulbrightonline.org",
+      "adapter": "fulbrightAdapter",
+      "confidence": "official"
+    },
+    {
+      "id": "marie-curie",
+      "name": "Marie Sklodowska-Curie Actions",
+      "url": "https://marie-sklodowska-curie-actions.ec.europa.eu",
+      "adapter": "mscaAdapter",
+      "confidence": "official"
+    }
+  ],
+  "itemSources": [
+    {
+      "name": "csc.edu.cn",
+      "url": "https://www.csc.edu.cn",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "Fulbright Foreign Student Program",
+      "url": "https://foreign.fulbrightonline.org",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "Chevening Scholarships",
+      "url": "https://www.chevening.org",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "Erasmus+",
+      "url": "https://erasmus-plus.ec.europa.eu",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "DAAD",
+      "url": "https://www.daad.de",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "Rhodes Trust",
+      "url": "https://www.rhodeshouse.ox.ac.uk",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "Gates Cambridge",
+      "url": "https://www.gatescambridge.org",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "Knight-Hennessy Scholars",
+      "url": "https://knight-hennessy.stanford.edu",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "MIT Office of Graduate Education",
+      "url": "https://oge.mit.edu",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "EPFL",
+      "url": "https://www.epfl.ch/education/master/",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "ETH Zurich",
+      "url": "https://ethz.ch",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "National University of Singapore",
+      "url": "https://nus.edu.sg",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "Hong Kong PhD Fellowship Scheme",
+      "url": "https://cerg1.ugc.edu.hk/hkpfs/index.html",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "JSPS",
+      "url": "https://www.jsps.go.jp/english/",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "Marie Skłodowska-Curie Actions",
+      "url": "https://marie-sklodowska-curie-actions.ec.europa.eu",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    }
+  ]
+}
