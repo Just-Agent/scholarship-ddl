@@ -1,0 +1,105 @@
+{
+  "topicId": "scholarship-ddl",
+  "generatedAt": "2026-05-16T09:04:12.662Z",
+  "adapterCount": 5,
+  "reachableCount": 4,
+  "parsedItemCount": 1,
+  "previousParsedItemCount": 0,
+  "parserHealthy": true,
+  "parserDropOk": true,
+  "adapters": [
+    {
+      "sourceId": "csc",
+      "source": "国家留学基金委",
+      "url": "https://www.csc.edu.cn",
+      "items": [],
+      "reachable": false,
+      "httpStatus": 412,
+      "finalUrl": "https://www.csc.edu.cn/",
+      "title": null,
+      "contentLength": 2475,
+      "fetchedAt": "2026-05-16T09:04:10.694Z",
+      "note": "Source returned HTTP 412. Curated data/items.json preserved.",
+      "error": null
+    },
+    {
+      "sourceId": "daad",
+      "source": "DAAD",
+      "url": "https://www.daad.de",
+      "items": [],
+      "reachable": true,
+      "httpStatus": 200,
+      "finalUrl": "https://www.daad.de/de/",
+      "title": "Deutscher Akademischer Austauschdienst - DAAD",
+      "contentLength": 237276,
+      "fetchedAt": "2026-05-16T09:04:10.810Z",
+      "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
+      "error": null
+    },
+    {
+      "sourceId": "fulbright",
+      "source": "Fulbright",
+      "url": "https://foreign.fulbrightonline.org",
+      "items": [],
+      "reachable": true,
+      "httpStatus": 200,
+      "finalUrl": "https://foreign.fulbrightonline.org/",
+      "title": "Foreign Fulbright Program - New Home Page",
+      "contentLength": 68746,
+      "fetchedAt": "2026-05-16T09:04:10.813Z",
+      "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
+      "error": null
+    },
+    {
+      "sourceId": "marie-curie",
+      "source": "Marie Sklodowska-Curie Actions",
+      "url": "https://marie-sklodowska-curie-actions.ec.europa.eu",
+      "items": [],
+      "reachable": true,
+      "httpStatus": 200,
+      "finalUrl": "https://marie-sklodowska-curie-actions.ec.europa.eu/",
+      "title": "Home - Marie Skłodowska-Curie Actions",
+      "contentLength": 129209,
+      "fetchedAt": "2026-05-16T09:04:10.815Z",
+      "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
+      "error": null
+    },
+    {
+      "sourceId": "chevening",
+      "source": "Chevening Scholarships",
+      "url": "https://www.chevening.org/scholarships/application-timeline/",
+      "items": [
+        {
+          "id": "chevening-offer-deadline-9-july-2026",
+          "title": "Chevening - Offer deadline",
+          "deadline": "2026-07-09T23:59:59Z",
+          "dateRange": "9 July 2026",
+          "location": "Online",
+          "isOnline": true,
+          "tags": [
+            "scholarship",
+            "Chevening",
+            "UK"
+          ],
+          "url": "https://www.chevening.org/scholarships/application-timeline/",
+          "status": "upcoming",
+          "description": "Parsed from the official Chevening application timeline.",
+          "stage": "Offer deadline",
+          "source": "Chevening Scholarships",
+          "type": "program"
+        }
+      ],
+      "reachable": true,
+      "httpStatus": 200,
+      "finalUrl": "https://www.chevening.org/scholarships/application-timeline/",
+      "title": "Application timeline | Chevening",
+      "contentLength": 87736,
+      "fetchedAt": "2026-05-16T09:04:10.820Z",
+      "note": "Parsed 1 items from Chevening timeline; rejected 8 entries.",
+      "error": null,
+      "parsedItemCount": 1,
+      "invalidItemCount": 8,
+      "parserHealthy": true
+    }
+  ]
+}
